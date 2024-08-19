@@ -1,0 +1,221 @@
+/* Add the smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #000;
+}
+
+/* Responsive font sizes and paddings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Navbar adjustments */
+.navbar {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Responsive hero section */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #000, #444);
+}
+
+.hero-section img {
+  max-height: 20vh;
+  margin-bottom: 1rem;
+}
+
+/* Responsive content section */
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.content-section h3 {
+  font-size: 2rem;
+}
+
+.content-section h5 {
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.content-section button {
+  background: black;
+  color: #ccc;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.content-section button:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Gallery section adjustments */
+.gallery-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  background: linear-gradient(to top, #000, #444);
+}
+
+.gallery-section h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Prices section adjustments */
+.prices-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  background: linear-gradient(to bottom, #444, #000);
+}
+
+.prices-section h2 {
+  font-size: 2rem;
+}
+
+.prices-section .price-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prices-section .price-list ul {
+  padding: 1rem 0;
+}
+
+/* Contact section adjustments */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  background: linear-gradient(to bottom, #000, #444);
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 500px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.contact-section button {
+  background: black;
+  color: #ccc;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.contact-section button:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Footer adjustments */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  background: linear-gradient(to bottom, #444, #000);
+  color: white;
+  text-align: center;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footer ul li {
+  margin: 0.5rem 0;
+}
+
+.footer button {
+  background: black;
+  color: #ccc;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.footer button:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.footer .legal {
+  font-size: 0.75rem;
+  color: #ccc;
+  margin-top: 1rem;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+  .content-section h3 {
+    font-size: 3rem;
+  }
+
+  .content-section h5 {
+    font-size: 1.5rem;
+  }
+
+  .gallery-section h3,
+  .prices-section h2 {
+    font-size: 3rem;
+  }
+}
